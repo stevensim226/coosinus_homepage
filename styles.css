@@ -1,0 +1,197 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.coosinus-logo-navbar {
+    margin-left: 50px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-white {
+    background-color: #FFFBFB;
+}
+
+.bg-main1 {
+    background-color: #6DC285;
+}
+
+.btn-main1 {
+    background-color: #6DC285;
+    color:white;
+}
+
+.btn-main2 {
+    background-color: #ffffff;
+    color: #6DC285;
+}
+
+.button-container .btn {
+    font-size: 24px;
+}
+
+.navbar {
+    /*height: 123px;*/
+}
+
+.height-main {
+    height: calc(100vh - 67px);
+}
+
+.bear {
+    background: url("images/bear.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+
+.main-section {
+    background-image: linear-gradient(135deg, #76b59c, #afd7b7);
+}
+
+.makin-seru {
+    height: 100px;
+    background-color: #d8e5d9;
+}
+
+.four-icons {
+    min-height: calc(100vh - 100px);
+}
+
+.four-logo {
+    height: 221px;
+}
+
+.sertifikat-mobile {
+    display:none;
+}
+
+.versus-pc {
+    background: url("images/bg-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display:flex;
+}
+
+.versus-mobile {
+    display: none;
+    border-bottom: 8px solid #6ec386;
+}
+
+.versus-mobile-title {
+    height:150px;
+}
+
+.versus-mobile-button {
+    height:75px;
+    background-color: #d3edda;
+    border-top: 2px solid #6ec386;
+}
+
+.table-pc {
+    width:60%;
+}
+
+.hadiah-section {
+    background: url("images/hadiah-art-pc.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px;
+    background-position-y: -35px;
+}
+
+.hadiah-gambar {
+    width:30vw;
+}
+
+footer {
+    background-color: #418855;
+}
+
+.footer-top {
+    height:300px;
+    background-color: #579969;
+}
+
+.footer-bottom {
+    height: 132px;
+}
+
+.selected-table-tab-mobile {
+    border-bottom: 5px solid #6ec386 ;
+}
+
+.selected-table {
+    display:block;
+}
+
+.not-selected-table {
+    display: none;
+}
+
+
+
+@media (max-width:768px){
+    .height-main {
+        height:360px;
+    }
+
+    .button-container .btn {
+        font-size: 16px;
+    }
+
+    .sertifikat-mobile {
+        display:block;
+    }
+
+    .sertifikat-pc {
+        display:none;
+    }
+
+    .versus-pc {
+        display: none;
+    }
+
+    .versus-mobile {
+        display: block;
+    }
+
+    .hadiah-gambar {
+        width: 90%;
+    }
+
+    .logo-penghargaan {
+        width:100%;
+    }
+
+    footer, .footer-top {
+        height:auto;
+    }
+
+    .hadiah-section {
+        background: none;
+    }
+
+    .ayo-belajar h1 {
+        font-size: 24px;
+    }
+    
+    .ayo-belajar h5 {
+        font-size: 16px;
+    }
+
+    .ayo-belajar > div {
+        padding:30px !important;
+        margin:0 !important;
+    }
+
+    .coosinus-logo-navbar {
+        padding:0;
+        margin:0;
+        height:25px;
+    }
+}
