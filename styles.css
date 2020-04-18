@@ -133,7 +133,167 @@ footer {
     display: none;
 }
 
+/* Dashboard */
 
+.mplus-font {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #7B7B7B;
+}
+
+.exp-bar-nav {
+    width: 309px;
+    height: 29px;
+    background-color: white;
+    border: 5px solid #A5D8B3;
+    box-sizing: border-box;
+}
+
+.exp-point-nav {
+    height:100%;
+    background-color:#A6DCE8;
+}
+
+.bg-sidebar {
+    background-color: rgba(109, 194, 133, 0.61);
+}
+
+.sidebar {
+    width:150px;
+}
+
+.sidebar-tab {
+    width: 130px;
+    height: 110px;
+    border-radius: 10px 0 0 10px;
+}
+
+.sidebar-tab:hover {
+    background-color:white !important;
+}
+
+.sidebar-tab-book {
+    background: url("images/profile/book-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-book:hover {
+    background: url("images/profile/book-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-profile {
+    background: url("images/profile/profile-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-profile:hover {
+    background: url("images/profile/profile-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-gift {
+    background: url("images/profile/gift-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-gift:hover {
+    background: url("images/profile/gift-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-card {
+    background: url("images/profile/card-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-card:hover {
+    background: url("images/profile/card-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-book {
+    background: url("images/profile/book-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-profile {
+    background: url("images/profile/profile-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-gift {
+    background: url("images/profile/gift-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-card {
+    background: url("images/profile/card-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.selected-sidebar-tab {
+    background-color: white;
+}
+
+.selected-tab-icon {
+    fill:black;
+}
+
+.main-content {
+    width:calc(100% - 150px);
+}
+
+.progress-bar-profile {
+    height: 30px;
+    background-color: white;
+    border: 5px solid #A5D8B3;
+    box-sizing: border-box;
+}
+
+.progress-points-profile {
+    background-color: #A6DCE8;
+    width:75%;
+}
+
+.profile-text > h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile-text > h4:nth-child(odd) {
+    color:#C2AEAE;
+}
+
+.profile-text > h4:nth-child(even) {
+    color:#7B7B7B;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+    color: #7B7B7B;
+}
+
+.btn-main3 {
+    background-color: #E4F9EA;
+    color: #E87979;
+    width: 100px;
+}
+
+.activity-item {
+    border-radius: 28px;
+    border: 2px solid #7B7B7B;
+}
 
 @media (max-width:768px){
     .main-text {
@@ -198,5 +358,32 @@ footer {
         padding:0;
         margin:0;
         height:25px;
+    }
+
+    /* Profile */
+    .exp-bar-nav {
+        width:90px;
+        height: 8px;
+        border-width: 1px;
+    }   
+
+    .nav-icon {
+        width: 20px;
+    }
+
+    .nav-text {
+        font-size: 20px;
+    }
+
+    .pfp-nav {
+        height: 48.93px;
+    }
+
+    .nav-name {
+        font-size: 14px;
+    }
+
+    .nav-level {
+        font-size: 12px;
     }
 }
