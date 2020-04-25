@@ -62,7 +62,7 @@
 }
 
 .four-logo {
-    height: 221px;
+    height: 221px !important;
 }
 
 .sertifikat-mobile {
@@ -96,14 +96,6 @@
     width:60%;
 }
 
-.hadiah-section {
-    background: url("images/hadiah-art-pc.svg");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 400px;
-    background-position-y: -35px;
-}
-
 .hadiah-gambar {
     width:30vw;
 }
@@ -127,6 +119,10 @@ footer {
 
 .selected-table {
     display:block;
+}
+
+.kurikulum-kid2-text-sm {
+    display: none !important;
 }
 
 .not-selected-table {
@@ -358,6 +354,18 @@ footer {
         padding:0;
         margin:0;
         height:25px;
+    }
+
+    .kurikulum-kid2-text-sm {
+        display: flex !important;
+    }
+
+    .kurikulum-kid2-text-lg {
+        display: none !important;
+    }
+
+    .hadiah-picture {
+        display:none;
     }
 
     /* Profile */
