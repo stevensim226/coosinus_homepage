@@ -150,11 +150,12 @@ footer {
 }
 
 .bg-sidebar {
-    background-color: rgba(109, 194, 133, 0.61);
+    background-color: rgba(109, 194, 133);
 }
 
 .sidebar {
     width:150px;
+    box-sizing: border-box;
 }
 
 .sidebar-tab {
@@ -393,5 +394,117 @@ footer {
 
     .nav-level {
         font-size: 12px;
+    }
+
+    .main-profile {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100vw;
+        padding:0 0 10px 0 !important;
+        justify-content: center;
+        position: fixed;
+        z-index: 30;
+        bottom:0;
+    }
+
+    .sidebar-tab {
+        border-radius: 0 0 10px 10px;
+        width:68px;
+        height:68px;
+    }
+
+    .sidebar-tab-book, .sidebar-tab-book:hover, .sidebar-tab-profile, .sidebar-tab-profile:hover, .sidebar-tab-gift, .sidebar-tab-gift:hover, .sidebar-tab-card, .sidebar-tab-card:hover, .sidebar-tab-selected-book, .sidebar-tab-selected-profile, .sidebar-tab-selected-gift, .sidebar-tab-selected-card {
+        background-size: 30px;
+    }
+
+    .profile-right {
+        padding:0 !important;
+    }
+
+    .profile-pic-exp {
+        width: 62px;
+        height: 49px;
+    }
+
+    .profile-name {
+        font-size: 12px;
+        margin:0;
+        padding:0;
+    }
+
+    .profile-points, .profile-level {
+        font-size: 9px;
+        margin:0;
+        padding:0;
+    }
+
+    .profile-top {
+        width: 100vw;
+        margin:0;
+        padding:0;
+    }
+
+    .star-profile {
+        width:12px;
+    }
+
+    .main-content {
+        padding:1rem !important;
+    }
+
+    .progress-bar-profile {
+        height: 10px;
+        border-width: 2px;
+        margin-top:0 !important;
+    }
+
+    .profile-text > h4 {
+        font-size:12px;
+    }
+
+    .profile-text {
+        padding: 5px 0 0 5px !important;
+    }
+
+    .achievement-logo {
+        height: 32px;
+        width: 32px;
+        margin: 0 10px 0 0 !important;
+    }
+
+    .activity-title {
+        font-size: 16px;
+        margin:0 !important;
+    }
+
+    .activity-detail {
+        font-size: 10px;
+        margin:0 2px 0 2px !important;
+    }
+
+    .btn-main3 {
+        font-size:10px;
+    }
+
+    .btn-middle {
+        width: 75px !important;
+    }
+
+    .btn-achievement {
+        width: 90px !important;
+    }
+
+    .three-buttons {
+        padding: 0 !important;
+    }
+
+    .activity-item {
+        padding: 10px !important;
+    }
+
+    .aktivitas-belajar {
+        padding: 10px 0 0 0 !important;
     }
 }

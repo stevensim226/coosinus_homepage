@@ -49,8 +49,8 @@
         </div>
     </nav>
     
-    <section class="d-flex">
-        <div class="bg-sidebar sidebar d-flex flex-column align-items-end pt-4">
+    <section class="d-flex main-profile">
+        <div class="bg-sidebar sidebar d-flex flex-md-column align-items-end pt-4">
             <div class="sidebar-tab sidebar-tab-book d-flex justify-content-center align-items-center" tab-name="book">
             </div>
             <div class="sidebar-tab sidebar-tab-selected-profile selected-sidebar-tab  d-flex justify-content-center align-items-center" tab-name="profile">
@@ -61,25 +61,25 @@
             </div>
         </div>
 
-        <div class="main-content p-5">
+        <div class="main-content p-5 w-100">
 
             <!-- masukin content kesini -->
 
             <div class="profile-content">
-                <div class="d-flex">
-                    <div class="profile-pic-exp">
-                        <img src="images/profile/pfp-big.svg">
+                <div class="d-flex profile-top">
+                    <div>
+                        <img class="profile-pic-exp" src="images/profile/pfp-big.svg">
                     </div>
-                    <div class="w-100 py-3 d-flex justify-content-between flex-column">
+                    <div class="w-100 py-3 d-flex justify-content-between flex-column profile-right">
                         <div class="d-flex justify-content-between w-75">
-                            <h3 class="mplus-font">Rudy Paragraf</h3>
-                            <h3 class="mplus-font">Total Points:</h3>
+                            <h3 class="mplus-font profile-name">Rudy Paragraf</h3>
+                            <h3 class="mplus-font profile-points">Total Points:</h3>
                         </div>
                         <div class="d-flex justify-content-between w-75">
-                            <h4 class="mplus-font">Level A-E</h4>
+                            <h4 class="mplus-font profile-level">Level A-E</h4>
                             <div class="d-flex align-items-center">
-                                <img src="images/profile/star-small.svg">
-                                <h4 class="mplus-font m-0 p-0 mx-2">25</h4>
+                                <img class="star-profile" src="images/profile/star-small.svg">
+                                <h4 class="mplus-font m-0 p-0 mx-2 profile-points">25</h4>
                             </div>
                         </div>
                         <div class="progress-bar-profile w-75 rounded-sm mt-2">
@@ -111,87 +111,99 @@
 
                 <div class="three-buttons d-flex justify-content-between pl-3 w-100">
                     <div class="edit-simpan-button">
-                        <button class="btn btn-main3 mr-3">
+                        <button class="btn btn-main3 mr-3 btn-middle">
                             Edit
                         </button>
-                        <button class="btn btn-main3">
+                        <button class="btn btn-main3 btn-middle">
                             Simpan
                         </button>
                     </div>
-                    <button class="btn btn-main3">
+                    <button class="btn btn-main3 btn-middle">
                         Log Out
                     </button>
                 </div>
 
-                <div class="p-3 pt-5">
+                <div class="p-3 pt-5 w-100 aktivitas-belajar">
                     <h4 class="nunito">Aktivitas Belajar</h4>
-                    <div class="activity-item p-4 d-flex my-2">
-                        <img src="images/profile/trophy.svg" class="mr-4">
-                        <div class="w-100 d-flex flex-column justify-content-center">
-                            <h4 class="nunito mb-3">Ranking</h4>
-                            <div class="d-flex align-items-center justify-content-between">
+
+
+                    <div class="activity-item p-4 d-flex my-2 align-items-center">
+                        <img src="images/profile/trophy.svg" class="mr-4 achievement-logo">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-between">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h4 class="nunito mb-3 activity-title">Ranking</h4>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="nunito">834</h3>
-                                    <h5 class="mx-3 nunito">di Indonesia</h5>
-                                    <h3 class="nunito">420</h3>
-                                    <h5 class="mx-3 nunito">di Jawa Barat</h5>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 class="nunito activity-detail">834</h3>
+                                        <h5 class="mx-3 nunito activity-detail">di Indonesia</h5>
+                                        <h3 class="nunito activity-detail">420</h3>
+                                        <h5 class="mx-3 nunito activity-detail">di Jawa Barat</h5>
+                                    </div>
                                 </div>
-                                <button class="btn btn-main3 w-25">
-                                    Belajar Lagi
-                                </button>
                             </div>
+
+                            <button class="btn btn-main3 btn-achievement w-25">
+                                Belajar Lagi
+                            </button>
                         </div>
                     </div>
 
-                    <div class="activity-item p-4 d-flex my-2">
-                        <img src="images/profile/clock.svg" class="mr-4">
-                        <div class="w-100 d-flex flex-column justify-content-center">
-                            <h4 class="nunito mb-3">Lama Belajar</h4>
-                            <div class="d-flex align-items-center justify-content-between">
+                    <div class="activity-item p-4 d-flex my-2 align-items-center">
+                        <img src="images/profile/clock.svg" class="mr-4 achievement-logo">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-between">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h4 class="nunito mb-3 activity-title">Lama belajar</h4>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="nunito">25</h3>
-                                    <h5 class="mx-3 nunito">Menit</h5>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 class="nunito activity-detail">25</h3>
+                                        <h5 class="mx-3 nunito activity-detail">menit</h5>
+                                    </div>
                                 </div>
-                                <button class="btn btn-main3 w-25">
-                                    Belajar Lagi
-                                </button>
                             </div>
+
+                            <button class="btn btn-main3 btn-achievement w-25">
+                                Belajar Lagi
+                            </button>
                         </div>
                     </div>
 
-                    <div class="activity-item p-4 d-flex my-2">
-                        <img src="images/profile/video.svg" class="mr-4">
-                        <div class="w-100 d-flex flex-column justify-content-center">
-                            <h4 class="nunito mb-3">Video Ditonton</h4>
-                            <div class="d-flex align-items-center justify-content-between">
+                    <div class="activity-item p-4 d-flex my-2 align-items-center">
+                        <img src="images/profile/video.svg" class="mr-4 achievement-logo">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-between">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h4 class="nunito mb-3 activity-title">Video Ditonton</h4>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="nunito">2</h3>
-                                    <h5 class="mx-3 nunito">Video</h5>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 class="nunito activity-detail">2</h3>
+                                        <h5 class="mx-3 nunito activity-detail">Video</h5>
+                                    </div>
                                 </div>
-                                <button class="btn btn-main3 w-25">
-                                    Belajar Lagi
-                                </button>
                             </div>
+
+                            <button class="btn btn-main3 btn-achievement w-25">
+                                Belajar Lagi
+                            </button>
                         </div>
                     </div>
 
-                    <div class="activity-item p-4 d-flex my-2">
-                        <img src="images/profile/question.svg" class="mr-4">
-                        <div class="w-100 d-flex flex-column justify-content-center">
-                            <h4 class="nunito mb-3">Latihan Selesai</h4>
-                            <div class="d-flex align-items-center justify-content-between">
+                    <div class="activity-item p-4 d-flex my-2 align-items-center">
+                        <img src="images/profile/question.svg" class="mr-4 achievement-logo">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-between">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h4 class="nunito mb-3 activity-title">Latihan Selesai</h4>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="nunito">1</h3>
-                                    <h5 class="mx-3 nunito">Latihan</h5>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 class="nunito activity-detail">1</h3>
+                                        <h5 class="mx-3 nunito activity-detail">Latihan</h5>
+                                    </div>
                                 </div>
-                                <button class="btn btn-main3 w-25">
-                                    Belajar Lagi
-                                </button>
                             </div>
-                        </div>
-                    </div>
 
-                    
+                            <button class="btn btn-main3 btn-achievement w-25">
+                                Belajar Lagi
+                            </button>
+                        </div>
+                    </div>                    
                 </div>
             </div>
             
